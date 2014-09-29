@@ -112,8 +112,7 @@ while (1){
 
     }else{        printf("Sending failed.\n\r"); }          // If no ack response, sending failed
 
-    sleep(1);  // Try again later
-    //delay(250);
+    delay(1000); // Try again later
   }
 
 /****************** Pong Back Role ***************************/

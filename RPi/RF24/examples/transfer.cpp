@@ -97,7 +97,7 @@ int main(int argc, char** argv){
     while (1){
 
 	if (role == role_ping_out){
-		sleep(2);
+		delay(2000);
 		printf("Initiating Basic Data Transfer\n\r");
 
 		long int cycles = 10000; 					//Change this to a higher or lower number.
